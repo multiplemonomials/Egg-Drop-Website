@@ -5,6 +5,8 @@ html {
 body{
 	height: 100%;
 	background: linear-gradient(#bbc, white);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 	font-family: Calibri, Sans-Serif;
 }
 
@@ -35,13 +37,39 @@ h1 {
 }
 
 table.pughchart {
-	border: 1px solid black;
-	border-collapse: collapse;
+	border: 2px solid darkblue;
+	border-radius: 5px;
+	border-spacing: 0px;
 }
 
 .pughchart>tbody>tr>th{
 	font-weight: bold;
 	border: 1px solid black;
+	border-top: none;
+	border-bottom-width: 2px;
+}
+
+.pughchart>tbody>tr>th:first-child{
+	border-left: none;
+}
+
+.pughchart>tbody>tr:first-child>td{
+	border-top: none;
+}
+
+.pughchart>tbody>tr>td{
+	border: 1px solid black;
+}
+
+.pughchart>tbody>tr>td:first-child{
+	border-top: none;
+}
+
+
+
+
+.pughchart>tbody>tr>td:hover{
+	background-color: #f7f7f7;
 }
 
 td {
@@ -52,11 +80,16 @@ td {
 }
 
 footer {
-	text-align: center;
+	font-size: .85em;
+	overflow: auto;
+	margin-top: 10px;
+	padding-top: 5px;
+	padding-left: 15px;
+	background-color: lightgrey;
 }
 
 footer>img {
-	margin: 0 auto;
+	float: right;
 }
 
 .charttitle {
