@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="7.9195959"
-     inkscape:cx="18.840447"
-     inkscape:cy="27.137807"
+     inkscape:zoom="3.959798"
+     inkscape:cx="-89.442632"
+     inkscape:cy="18.840833"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -59,7 +59,10 @@
        d="m 50.379458,1019.2849 c 0.771711,10.2784 -4.851275,16.8766 -12.7705,16.8456 -7.441378,-0.029 -14.024771,-6.3199 -13.402682,-16.6085 0.670525,-11.0897 6.594456,-20.72034 13.244636,-20.79672 6.81416,-0.0779 12.146265,10.14052 12.928546,20.55962 z"
        id="path5302"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="sssss" />
+       sodipodi:nodetypes="sssss"
+       inkscape:export-filename="C:\Users\Jamie\Documents\Egg-Drop-Website\favicon.png"
+       inkscape:export-xdpi="148.052"
+       inkscape:export-ydpi="148.052" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.06360757px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 19.498,1020.9815 17.032098,-35.87431 19.449511,35.84211 -18.509406,25.9361 z"

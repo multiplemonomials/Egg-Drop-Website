@@ -1,0 +1,22 @@
+.journaltable {
+	margin: 0px auto;
+	border-spacing: 0px;
+}
+.journaltable>tbody>tr>td {
+	border-bottom: 1px solid #999;
+	border-right: 1px solid #999;
+	padding: 10px;
+	padding-left: 20px;
+}
+
+.journaltable>tbody>tr>td:first-child {
+	border-left: 1px solid #999;
+}
+
+.journaltable>tbody>tr>th {
+	text-align: left;
+	background-color: #222;
+	border-bottom: 2px solid #0cc;
+	padding: 15px;
+	color: white;
+}
