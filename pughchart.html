@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<!--header version 1-->
+<!--header version 2-->
 <head>
 	
 	<meta charset="UTF-8">
@@ -10,7 +10,18 @@
 	
 </head>
 <body>
-	<h1> Egg Drop </h1>
+	<a id="titlelink" href="index.html"><h1> Egg Drop </h1></a>
+	
+	<header>
+		<ul class="linklist">
+			<li><a href="index.html">Group Info and Final Design</a></li>
+			<li><a href="journal.html">Project Journal and Testing Log</a></li>
+			<li><a href="brainstorming.html">Initial Brainstorming</a></li>
+			<li><a href="pughchart.html">Pugh Charts</a></li>
+
+		</ul>
+	</header>
+		
 <!-- end header -->
 	<div id="content">
 		<span class="charttitle">Egg Holders: </span>
@@ -20,29 +31,35 @@
 			</th>
 			<th>
 				Double Pyramid
+				<br>
+				<img height="75px" width="75px" src="images/twodiamond-holder.svg">
 			</th>
 			<th>
-				Solid "Shack"
+				Solid-Sided Rectangular Prism "Shack"
+				<br>
+				<img height="75px" width="75px" src="images/rectangularprism-holder.svg">
 			</th>
 			<th>
 				Cube around Double Pyramid
+				<br>
+				<img height="75px" width="75px" src="images/diamondincube-holder.svg">
 			</th>
 		</tr>
 		<tr>
 			<td>
-				How well does it spread out force applied to the egg?
+				How well does it distribute force applied to the egg to multiple points?
 			</td>
-			<td> Well </td>
-			<td> Very well, assuming it's built properly </td>
-			<td> As well as the double pyramid </td>
+			<td> 4 </td>
+			<td> 3 (as long as tolerances are right) </td>
+			<td> 4 (same as double pyramid) </td>
 		</tr>
 		<tr>
 			<td>
 				How well does it direct force around the egg? Or, how well does it resist compression?
 			</td>
-			<td> Decent at redirection, but kind of weak </td>
-			<td> Quite well, assuming the forces are applied at the corners </td>
-			<td> Very well </td>
+			<td> 3 </td>
+			<td> 4 </td>
+			<td> 4 </td>
 		</tr>
 		<tr>
 			<td>
@@ -55,7 +72,7 @@
 		</table>
 		
 		<br>
-		<span class="charttitle">Main Structures:</span>
+		<span class="charttitle">Outer Shell:</span>
 		
 		<table class="pughchart">
 		<tr>
@@ -81,40 +98,42 @@
 			<td>
 				How well will it absorb impact and deform?
 			</td>
-			<td> Poorly </td>
-			<td> Very well, assuming the joints are weak enough </td>
-			<td> Quite well</td>
-			<td> Very well </td>
-			<td> Very well </td> 
+			<td> 2 </td>
+			<td> 4 </td>
+			<td> 3</td>
+			<td> 4 </td>
+			<td> 4 </td> 
 		</tr>
 		<tr>
 			<td>
-				How much will it bounce? (bouncing is bad)
+				How resistant to bouncing is it? (bouncing is bad)
 			</td>
-			<td> A lot </td>
-			<td> Hardly at all </td>
-			<td> A little</td>
-			<td> A lot </td>
-			<td> A moderate amount </td>
+			<td> 2 </td>
+			<td> 4 </td>
+			<td> 4</td>
+			<td> 2 </td>
+			<td> 3 </td>
 		</tr>
 		<tr>
 			<td>
-				How well will it redirect impact from the center?
+				How well will it protect the inner shell from impact?
 			</td>
-			<td> Poorly </td>
-			<td> Very well </td>
-			<td> Moderately well </td>
-			<td> Poorly </td>
-			<td> Quite well </td>
+			<td> 2 </td>
+			<td> 4 </td>
+			<td> 3 </td>
+			<td> 2 </td>
+			<td> 5 </td>
 		</tr>					
 		</table>
+		
+		<b>NOTE:</b> scores are out of 5
 		
 	</div>
 
 <!-- footer version 2 -->
 	<footer>
 		by Jamie Smith, Drew Heenan, Alex Quan, and Hunter ?
-		<img src="images/poweredbyelectricity-black.svg">
+		<img width="160px" height="40px" src="images/poweredbyelectricity-black.svg">
 	</footer>
 <!-- end footer -->
 </body>
