@@ -1,0 +1,32 @@
+figure {
+	background-color: lightgrey;
+	padding: 5px;
+	display: inline-block;
+	border-radius: 5px;
+}
+
+figure>figcaption {
+	padding-left: 10px;
+}
+
+h3 {
+	margin-bottom: 5px;
+	border-bottom: 2px solid blue;
+	padding-bottom: 5px;
+}
+
+.subtitle {
+	font-size: .9em;
+	font-style: italic;
+}
+
+.gallery {
+	overflow: auto;
+	background-color: lightblue;
+}
+
+.gallery>figure  {
+	background-color: transparent;
+	float: left;
+	margin: 5px;
+}
