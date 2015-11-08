@@ -28,6 +28,22 @@ h1 {
 	/* 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; */
 }
 
+h2 {
+  width: 50%;
+  border-bottom: 3px solid black
+}
+
+h3 {
+	width: 75%;
+	margin-bottom: 5px;
+	border-bottom: 2px solid blue;
+	padding-bottom: 5px;
+}
+
+ul.materialslist {
+	list-style-type: none;
+}
+
 #titlelink {
 	text-decoration: none;
 }
@@ -93,6 +109,10 @@ header>ul{
 header>ul>li {
 	display: inline;
 	margin-right: 10px;
+}
+
+header>ul>li {
+	color: white;
 }
 
 header>ul>li>a {
