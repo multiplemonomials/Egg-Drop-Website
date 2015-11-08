@@ -139,3 +139,19 @@ footer>img {
 	display: inline-block;
 	font-size: 1.2em;
 }
+
+.dropvideo {
+	background-color: lightblue;
+	width: 42%;
+	padding: 10px;
+	margin: 5px;
+	text-align: center;
+}
+
+.dropvideo>iframe {
+	border: none;
+	display: block;
+	margin: 10px auto;
+	width: 95%;
+	height: 315px; 
+}
