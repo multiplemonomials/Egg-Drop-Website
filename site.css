@@ -161,3 +161,9 @@ footer>img {
 	font-style: italic;
 	font-size: .9em;
 }
+
+.instructionslist>li>img {
+	display: block;
+	margin: 10px auto;
+	clear: left;
+}
